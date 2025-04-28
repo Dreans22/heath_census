@@ -13,6 +13,7 @@ function addPatient() {
       patients.push({ name, gender: gender.value, age, condition });
       resetForm();
       generateReport();
+      console.log(condition)
     }
   }
 
